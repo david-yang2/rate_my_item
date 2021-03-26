@@ -1,10 +1,11 @@
 import React from 'react';
-import ItemRating from './item_rating'
+//import "./app.css";
+import ItemRating from './item_rating';
 
 const App = (props) => {
     
     return (
-        <div>
+        <div>            
             <ItemRating />
         </div>
         
