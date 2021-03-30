@@ -62,6 +62,9 @@ class ItemRating extends React.Component{
                                     // else
                                         // change it to grey ("#e4e5e9")
                                 color={ratingValue <= (this.state.hover ||this.state.rating) ? "ffc107" : "#e4e5e9"}
+                                    // this.state.hover ||this.state.rating
+                                        // we want this.state.hover to take precedent
+                                
                                 onMouseEnter={()=> this.setHover(ratingValue)}
                                 onMouseExit={()=> this.setHover(null)}
                                 />
